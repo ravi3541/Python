@@ -1,3 +1,5 @@
+#Remove ith character from string
+
 string = input("Enter string: ")
 i = int(input("Enter position to be removed: "))
 str1=string[:i]

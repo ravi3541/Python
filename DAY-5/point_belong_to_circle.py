@@ -1,3 +1,8 @@
+"""
+Write a class Circle with a constructor to initialize variables like co-ordinates of center of a circle(x,y) and radius.
+define methods to calculate perimeter, area, and a method to check if a given point belongs to circle.
+"""
+
 from math import pi,sqrt
 
 class Circle:

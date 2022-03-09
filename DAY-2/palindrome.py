@@ -1,3 +1,5 @@
+#Check if a given string is palindrome
+
 #Method 1 using for loop
 def palindrome1(in_str):
     rev = ""

@@ -1,3 +1,8 @@
+"""
+Define a class person with constructor to initialize instance variable, also define a display method to print variables.
+Inherit a class student from Person, make constructor to initialize variables and override display method of Person to display details of student.
+"""
+
 class Person:
     
     def __init__(self, name, age):

@@ -1,3 +1,5 @@
+#Write a program to check weather a no. is prime or not 
+
 num = int(input("Enter number: "))
 
 is_prime = True

@@ -1,3 +1,5 @@
+#Check if element exist in list
+
 import random as r
 
 random_list = []

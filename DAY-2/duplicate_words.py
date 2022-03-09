@@ -1,3 +1,5 @@
+#Print duplicate words with count
+    
 in_str="Fear leads to anger anger leads to hatred hatred leads to conflict conflict leads to suffering"
 
 words=in_str.lower().split(" ")

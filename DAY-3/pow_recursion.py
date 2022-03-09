@@ -1,3 +1,5 @@
+#Write a recursive function to compute x^y
+
 def power(N, P):
 
 	# if power is 0 then return 1

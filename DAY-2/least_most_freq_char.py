@@ -1,3 +1,5 @@
+#Print least and most frequent appearing characters from a given string
+
 input_str = "least/most occuring character in string"
 
 count_char = {}

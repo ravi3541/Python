@@ -1,3 +1,5 @@
+#Write a function to compute x^y using loop
+
 def power(N, P):
     pow=1
     for i in range(P):

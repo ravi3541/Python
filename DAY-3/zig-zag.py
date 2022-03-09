@@ -1,3 +1,6 @@
+#Write a program to accept n and print zig-zag pattern
+
+
 n = int(input("Enter n to print zig zag pattern  "))
 print("\n")
 
