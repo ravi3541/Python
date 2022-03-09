@@ -25,7 +25,7 @@ class BankAccount:
     
     def Withdrawal(self , w):
         if(self.balance < w):
-            print("impossible operation! Insufficient balance !")
+            print("Insufficient balance !")
         else:
             self.balance = self.balance - w
     
@@ -42,10 +42,14 @@ class BankAccount:
         
 
 
-newAccount = BankAccount(2178514584, "Albert" , 2700)
+newAccount = BankAccount(2178514584, "Tejas" , 2700)
+
+newAccount.bankFees()
+newAccount.display()
 
 newAccount.Withdrawal(300)
 
 newAccount.Deposit(200)
 
+print("\nafter withdrawl and deposit action\n")
 newAccount.display()
