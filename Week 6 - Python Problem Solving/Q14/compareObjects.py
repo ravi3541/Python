@@ -4,7 +4,7 @@
 
 import time
 
-
+#Comparing List Objects
 print("\ncomparing lists\n")
 
 list1 = ["ravi","anant","rajat","vikas","suraj"]
@@ -19,6 +19,8 @@ else:
     print("\n list1 and list2 are not equal")
 
 
+
+#Comparing Class Objects
 print("\n comparing objects")
 
 class fruit:

@@ -16,10 +16,10 @@ def convertHrsMinToSec(h,m):
     return hrsToSec+minToSec
 
 
-print(f' {hrs} hrs and {mins} mins = {convertHrsMinToSec(hrs,mins)}  ')
+print(f' {hrs} hrs and {mins} mins = {convertHrsMinToSec(hrs,mins)}  seconds')
 
 
 #Approach 2 : Using timedelta
 print("\n Approach 2 : using timedelta")
 totalSeconds = timedelta(hours=hrs,minutes=mins).total_seconds()
-print(f' {hrs} hrs and {mins} mins = {totalSeconds}  ')
+print(f' {hrs} hrs and {mins} mins = {totalSeconds}  seconds')

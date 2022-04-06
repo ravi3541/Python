@@ -32,11 +32,12 @@ print("largest element from list = ",maxList2(list1))
 
 
 
-#Approach 3 : By sorting list
+#Approach 3 : By sorting list using selection sort
 print("\nApproach 3 : By sorting list ")
 n = len(list1)
 
 def sortList(input):
+
     for i in range(n-1):
         for j in range(i+1,n):
             if input[j]<input[i]:
